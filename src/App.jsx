@@ -16,15 +16,17 @@ function App() {
   // handleReadTime
   const [readTime, setReadTime] = useState(0);
   const handleReadTime = (time) => {
-    const remainingTime = readTime + Number(time);
+    const remainingTime = readTime + time;
     setReadTime(remainingTime);
   };
   // handle ReadTime Remove
-
-
+  const handleRemoveReadTime = (readTimes) => {
+    const remainingTime = readTime - readTimes;
+    setReadTime(remainingTime);
+  };
   return (
     <>
-      <div className="container  mx-auto flex flex-col lg:flex-row justify-between my-5  gap-5  border-2 p-5 border-amber-950 ">
+      <div className="container  mx-auto flex flex-col lg:flex-row justify-between my-5  gap-5  border-2 p-5 border-amber-950 rounded-2xl ">
         <div className=" w-full lg:w-[70%] border  border-amber-950 rounded-2xl p-2">
           <Blogs
             handleBookmerk={handleBookmerk}
@@ -48,7 +50,10 @@ function App() {
                     Title: {mark.title}
                   </span>
                   <button
-                    onClick={() => removeBookmark(mark.id)}
+                    onClick={() => {
+                      removeBookmark(mark.id);
+                      handleRemoveReadTime(mark.readTime);
+                    }}
                     className="text-red-500 cursor-pointer hover:animate-spin text-lg font-bold flex-shrink-0"
                     aria-label="Remove bookmark"
                   >
