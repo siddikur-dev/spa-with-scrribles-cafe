@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "cover_photo": "https://i.ibb.co.com/nqvtDHgM/Screenshot-1.png",
+    "title": "Enthusiast About Web-Development",
+    "author_img": "https://i.ibb.co.com/PzWYmPQN/profile-pic.png",
+    "author_name": "Siddikur Rahman",
+    "posted_date": "2025-04-05",
+    "description": "Passionate about crafting seamless and dynamic user experiences through innovative web development techniques.",
+    "hashtags": ["#JavaScript", "#Closures", "#WebDevelopment"],
+    "readTime": 5
+  },
+  {
+    "id": "2",
+    "cover_photo": "https://i.ibb.co.com/6cjKt45f/Whats-App-Image-2023-08-06-at-09-20-58.jpg",
+    "title": "HTML,CSS,Javascript Learner",
+    "author_img": "https://i.ibb.co.com/PzWYmPQN/profile-pic.png",
+    "author_name": "S.R. Siam",
+    "posted_date": "2025-04-02",
+    "description": "I'm an enthusiastic learner exploring the magic of HTML, CSS, and JavaScript to build awesome web experiences.",
+    "hashtags": ["#TailwindCSS", "#Frontend", "#Design"],
+    "readTime": 7
+  },
+  {
+    "id": "3",
+    "cover_photo": "https://i.ibb.co.com/6cjKt45f/Whats-App-Image-2023-08-06-at-09-20-58.jpg",
+    "title": "Framework daisyUI, React JS Learner",
+    "author_img": "https://i.ibb.co.com/PzWYmPQN/profile-pic.png",
+    "author_name": "MSR. Siam",
+    "posted_date": "2025-03-30",
+    "description": "DaisyUI is a component library for Tailwind CSS, and React JS is a popular JavaScript library for building user interfaces, making it easy for developers to create interactive UIs efficiently.",
+    "hashtags": ["#API", "#JavaScript", "#REST"],
+    "readTime": 3
+  },
+  {
+    "id": "4",
+    "cover_photo": "https://i.ibb.co.com/fzv9WRWC/Biege-Minimalist-Business-Manager-Facebook-Cover.png",
+    "title": "Student",
+    "author_img": "https://i.ibb.co.com/PzWYmPQN/profile-pic.png",
+    "author_name": "Siam",
+    "posted_date": "2025-03-30",
+    "description": "A student is someone who actively seeks knowledge and growth.",
+    "hashtags": ["#JavaScript", "#FrameWork", "#REACT"],
+    "readTime": 2
+  }
+]
